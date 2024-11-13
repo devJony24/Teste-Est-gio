@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calcular Soma</title>
+</head>
+<body>
+    <h1>Resultado da Soma</h1>
+    <p id="resultado"></p>
+
+    <script>
+        let INDICE = 13;
+        let SOMA = 0;
+        let K = 0;
+
+        while (K < INDICE) {
+            K += 1;
+            SOMA += K;
+        }
+
+        document.getElementById("resultado").textContent = "O valor final de SOMA é: " + SOMA;
+    </script>
+</body>
+</html>
